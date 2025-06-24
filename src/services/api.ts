@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 const api = createApi({
   reducerPath: 'api',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://vitorbri.pythonanywhere.com/api/',
+    baseUrl: 'https://michaelmp.pythonanywhere.com/api/',
     prepareHeaders: (headers, { endpoint }) => {
       const token = localStorage.getItem('access_token')
       if (token && endpoint !== 'register') {
