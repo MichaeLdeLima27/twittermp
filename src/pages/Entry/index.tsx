@@ -20,13 +20,13 @@ const Entry = () => (
       </SplitLayout>
       <Footer>
         <p>
-          Todos direitos reservados! criado por  {''}
+          Todos direitos reservados! criado por{''}
           <a
             href="http://linkedin.com/in/michelap19"
             target="_blank"
             rel="noreferrer"
           >
-            Michaelmp
+            @Michaelmp 2025
           </a>
         </p>
       </Footer>
